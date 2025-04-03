@@ -22,7 +22,8 @@ public class Board extends JPanel implements ActionListener, KeyListener {
         setBackground(Color.GREEN);
 
         player = new Player();
-        sprites = new ArrayList<>(List.of(player));
+        Missile missile = new Missile();
+        sprites = new ArrayList<>(List.of(player, missile));
 
         activeKeyCodes = new HashSet<>();
 
