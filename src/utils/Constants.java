@@ -13,7 +13,7 @@ public final class Constants {
     public static final int PLAYER_HEIGHT = 80;
     public static final int PLAYER_SPEED = 10;
 
-    public static final String MISSILE_IMAGE_PATH = "resources/missile.jpg";
+    public static final String MISSILE_IMAGE_PATH = "resources/missile.png";
     public static final int MISSILE_WIDTH = 200;
     public static final int MISSILE_HEIGHT = 50;
     public static final int MISSILE_SPEED = 1;
